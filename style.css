@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&family=Syne+Mono&family=Syne+Tactile&family=Turret+Road:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    color: #fffefd;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+.container h1{
+    font-family: 'Syne Mono', monospace;;
+    font-size: 36px;
+    border-bottom: 2px solid #add8e6ad;
+    margin-bottom: 40px;
+    padding: 13px 0;
+
+}
+.box{
+    width: 100%;
+    margin: 22px 0px;
+    border-bottom: 2px solid #add8e6ad;
+}
+.box input{
+    font-family: 'Turret Road', cursive;
+    background: none;
+    width: 80%;
+    padding: 5px 8px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+}
+.box i{
+    width: 10%;
+    text-align: center;
+}
+
+.btn{
+    cursor: pointer;
+    outline: none;
+    width: 33%;
+    margin: 12px 0;
+    padding: 6px;
+    border: 2px solid lightblue;
+    border-radius: 20px;
+    font-size: 17px;
+    background: none;
+    color: antiquewhite;
+    font-family: 'Grenze Gotisch', cursive;
+}
+.btn:hover{
+    opacity: .4;
+    color: rgb(44, 202, 255);
+    background: #e7e6e4;
+}
+
